@@ -1,0 +1,101 @@
+@font-face {
+  font-family: inter;
+  src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  font-family: inter;
+  background-color: hsl(0, 0%, 8%);
+  justify-content: center;
+  align-items: center;
+}
+
+.conainer {
+  background-color: hsl(0, 0%, 12%);
+  max-width: 375px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.image {
+  display: grid;
+  justify-content: center;
+  margin-top:;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.profile-pics {
+  height: 80px;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.social-button {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.buttons {
+  background-color: hsl(0, 0%, 20%);
+  width: 300px;
+  height: 45px;
+  margin-bottom: 10px;
+  border: 0;
+  color: white;
+  border-radius: 10px;
+}
+
+.buttons:hover {
+  cursor: pointer;
+}
+
+.buttons:active {
+  cursor: pointer;
+  background-color: hsl(75, 94%, 57%);
+}
+
+.details {
+  font-size: 16px;
+  font-family: inter;
+  color: lightblue;
+  text-align: center;
+}
+
+.name {
+  font-size: 25px;
+  font-family: inter;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+.nationality {
+  font-size: 15px;
+  padding-bottom: 30px;
+  color: hsl(75, 94%, 57%);
+}
+
+.specialization {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.attribution {
+  color: white;
+  padding-top: 0;
+  border: 2px solid red;
+  font-size: 16px;
+  text-align: center;
+}
